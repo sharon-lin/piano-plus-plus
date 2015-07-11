@@ -9,7 +9,7 @@ html,body{
   height:100%;
 }
 body{
-  @include radialBackground( $tb_blue, #7fbfd6 );
+  @include radialBackground( $tb_blue, #003366 );
   min-height: 100%;
 }
 .container{
