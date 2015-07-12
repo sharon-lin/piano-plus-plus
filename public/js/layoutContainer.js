@@ -77,8 +77,8 @@
                 
                 if ((rows/cols) * vidRatio > availableRatio) {
                     // Our widgets are taking up the whole height
-                    tHeight = Math.floor( (Height/2)/rows );
-                    tWidth = Math.floor( (tHeight/2)/vidRatio );
+                    tHeight = Math.floor( Height/rows );
+                    tWidth = Math.floor( tHeight/vidRatio );
                 } else {
                     // Our widgets are taking up the whole width
                     tWidth = Math.floor( (Width/2)/cols );
