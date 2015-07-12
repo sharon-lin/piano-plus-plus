@@ -75,7 +75,6 @@
 
             /* Generate playable key */
             note.key = new Key(note.noteName, note.keyName, note.frequency);
-            note.black = new Black(note.noteName, note.keyName, note.frequency);
 
             /* Add new key to array to be sorted */
             sortedKeys.push(notes[keyCode]);
