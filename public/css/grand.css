@@ -58,7 +58,7 @@ li{
     /* build the key shape */
     z-index: 102;
     position: absolute;
-    width: 32px;
+    width: 10px;
     top: 0px;
     margin-left: -16px; // align the ebony keys
     padding: 130px 0px 10px;
