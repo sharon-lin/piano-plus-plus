@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>WebRTC Demo - Video chatting in room <%= rid %></title>
+  <title>Piano++<%= rid %></title>
   <% include _header %>
+    <link rel="stylesheet" href="screen.css"/>
 </head>
 <body>
 
@@ -13,7 +14,11 @@
       <div id="myPublisher"></div>
     </div>
   </div>
+<div id="names"></div>
 
+		<div id="piano"></div>
+
+		<div id="cursors"></div>
   <div id="controlsContainer">
     <div class="controlsBody">
       <div id="controlOptions" class="optionContainer">
@@ -183,6 +188,11 @@
 </script>
 
 <% include _analytics %>
-
+<script src="jquery.min.js"></script>
+		<script src="midibridge-0.5.3.min.js"></script>
+		<script src="util.js"></script>
+		<script src="Client.js"></script>
+		<script src="NoteQuota.js"></script>
+		<script src="script.js"></script>
 </body>
 </html>
