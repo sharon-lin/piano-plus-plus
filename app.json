@@ -1,9 +1,9 @@
 {
-  "name": "Piano++",
-  "description": "Piano++ is an interactive realtime musical experience.",
-  "repository": "https://github.com/PatNeedham/pianoplusplus",
-  "logo": "",
-  "keywords": ["webrtc", "video", "video chat", "multiparty"],
+  "name": "OpenTokRTC",
+  "description": "OpenTokRTC is a WebRTC Demo that supports multi-party video chat, Audio/Video recording, mobile support on iOS and Android, and text-chat.",
+  "repository": "https://github.com/opentok/OpenTokRTC",
+  "logo": "http://www.tokbox.com/blog/wp-content/uploads/2014/08/LogoOpenTok.png",
+  "keywords": ["webrtc", "opentok", "video", "video chat", "multiparty"],
   "env": {
     "TB_KEY": {
       "description": "An API key provided by opentok"
